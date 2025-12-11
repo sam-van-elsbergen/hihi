@@ -170,27 +170,6 @@ function showAllProgress() {
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 }
 
-// ==========================================
-//  VOORBEELD GEBRUIK
-// ==========================================
-
-// Bij het laden van de pagina, probeer data uit localStorage te laden
-document.addEventListener('DOMContentLoaded', function() {
-    loadStudentDataFromStorage();
-});
-
-// Voorbeeld: Stel Sam in op 75% voortgang
-console.log('🎯 Voorbeeld: Sam instellen op 75%');
-console.log('');
-
-// Voer dit uit na een korte delay zodat de DOM geladen is
-setTimeout(() => {
-    setStudentProgress('Sam', 75);
-    
-    // Toon overzicht
-    console.log('');
-    showAllProgress();
-}, 500);
 
 // ==========================================
 //  HANDIGE CONSOLE COMMANDO'S
